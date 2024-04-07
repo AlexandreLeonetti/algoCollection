@@ -1,6 +1,7 @@
 import {parity, genTable, bigParity} from "./algos/parity";
 import {power} from "./algos/power";
 import {dutchRes} from "./algos/dutch";
+import {strToInt, intToStr} from "./algos/intStr";
 
 
 const res = bigParity(1024n);
@@ -15,3 +16,8 @@ console.log(p1);
 
 
 console.log(dutchRes);
+const n = strToInt("-1234");
+console.log(n);
+
+const s = intToStr(-12345);
+console.log(s)
