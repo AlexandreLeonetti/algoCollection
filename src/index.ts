@@ -10,4 +10,3 @@ import {nestSum} from "./recursion/nestedArrays";
 const res = nestSum([1,2,[3,[4],5,"6"],6]);//should return 21
 console.log(res);
 
-
