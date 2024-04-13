@@ -1,16 +1,3 @@
-import {parity, genTable, bigParity} from "./algos/parity";
-import {power} from "./algos/power";
-import {dutchRes} from "./algos/dutch";
-import {strToInt, intToStr} from "./algos/intStr";
-import {current as link} from "./algos/mergeLinkList";
-let link1 = link;
-import {nestSum} from "./recursion/nestedArrays";
-
-
-
-
-
-console.log("heaps")
 /* write a program that merges several sorted arrays */
 
 let a0 = [-2, -1, 0,1,2,3,4,5,6,7];
@@ -64,3 +51,4 @@ function merge(list: any[]){
 
 let res = merge([a0,a1,a2]);
 console.log(res);
+

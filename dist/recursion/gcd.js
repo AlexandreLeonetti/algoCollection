@@ -12,5 +12,6 @@ function gcd(x, y) {
         return gcd(y, x % y);
     }
 }
-gcd(14, 2);
+let g = gcd(14, 7);
+console.log("gcd", g);
 //# sourceMappingURL=gcd.js.map

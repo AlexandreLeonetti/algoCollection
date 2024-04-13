@@ -1,8 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const mergeLinkList_1 = require("./algos/mergeLinkList");
-let link1 = mergeLinkList_1.current;
-console.log("heaps");
 /* write a program that merges several sorted arrays */
 let a0 = [-2, -1, 0, 1, 2, 3, 4, 5, 6, 7];
 let a1 = [5, 10, 15, 20, 25];
@@ -40,4 +36,4 @@ function merge(list) {
 }
 let res = merge([a0, a1, a2]);
 console.log(res);
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=heaps.js.map
